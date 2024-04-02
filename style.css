@@ -1,0 +1,150 @@
+* {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 44px 0 144px 76px;
+}
+
+.link-header {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
+    margin-right: 23px;
+    color: rgba(152, 157, 156, 1);
+    cursor: pointer;
+
+
+}
+
+.button-header {
+    background-color: rgba(102, 90, 225, 1);
+    width: 130px;
+    height: 41px;
+    border-radius: 50px;
+    border: none;
+    font-Weight: 600;
+    font-Size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+    margin-left: 125px;
+    display: inline-block;
+}
+
+section {
+    display: inline-block;
+    margin-left: 250px;
+}
+
+h1 {
+    font-weight: 900;
+    font-size: 100px;
+    color: rgba(81, 81, 81, 1);
+
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    color: rgba(81, 81, 81, 1);
+
+
+}
+
+p {
+    Width: 515px;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgba(132, 132, 132, 1);
+    margin-top: 32px;
+    margin-bottom: 65px;
+
+}
+
+.button-main {
+    Width: 239px;
+    Height: 64px;
+    border-radius: 30px;
+    background-color: rgba(173, 255, 0, 1);
+    font-weight: 700;
+    font-size: 28px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(6px 6px 6px rgba(0, 0, 0, 0.25));
+    line-height: 34px;
+    color: #000000;
+}
+
+footer {
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #000000;
+    font-size: 20px;
+    text-shadow: 4px 4px 4px #585757;
+    margin-top: 70px;
+    margin-left: 1400px;
+}
+
+@media screen and (max-width: 450px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    main{width: 100%;
+
+
+    }
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    .img-logo {
+        display: block;
+        width: 354px;
+        height: 317px;
+        position: static;
+      margin: 150px auto 30px auto;
+    }
+
+    section {
+     margin: 0;
+        display: block;
+    }
+    h1{
+        text-align: center;
+        font-size: 50px;
+    }
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+    .button-main {
+        display: block;
+        align-items: center;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+ footer{
+    position: fixed;
+    margin-top: 220px;
+    margin-left: 150px;
+ }
+}
